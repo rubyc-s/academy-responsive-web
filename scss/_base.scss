@@ -1,7 +1,7 @@
 [v-cloak] { display: none }
 
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: $main-font;
   margin: 0;
   padding: 0;
 
@@ -28,4 +28,10 @@ h1 {
 
 .content {
  padding: 0 20px 20px;
+}
+
+.user-select {
+  font-size: 22px;
+  font-family: $main-font;
+  font-weight: bold;
 }
